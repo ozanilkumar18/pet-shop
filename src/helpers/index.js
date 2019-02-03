@@ -1,1 +1,1 @@
-export { Required } from "./validationHelpers";
+export { Required, Email } from "./validationHelpers";

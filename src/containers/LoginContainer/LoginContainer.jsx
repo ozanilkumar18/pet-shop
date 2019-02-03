@@ -4,7 +4,6 @@ import { reduxForm } from "redux-form";
 
 export class LoginContainer extends Component {
   submitLogin = () => {
-    
     console.log("handleSubmit");
   };
 

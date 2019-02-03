@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import TextField from "@material-ui/core/TextField";
 import { withStyles } from "@material-ui/core/styles";
-
 import classNames from "classnames";
 
 const styles = theme => ({
