@@ -1,14 +1,15 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { LoginLayout } from "./layouts/LoginLayout";
 import { RegisterLayout } from "./layouts/RegisterLayout";
-import NotFound from './layouts/404NotFound';
+import NotFound from "./layouts/404NotFound";
 
 export const Routes = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/login" component={LoginLayout} />
       <Route path="/register" component={RegisterLayout} />
+      <Route path="/home" component={() => <div>Home</div>} />
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
