@@ -1,1 +1,9 @@
-export { LOGIN, LOGIN_SUCCESS, LOADING, LOGIN_FAIL } from "./actions";
+export {
+  LOGIN,
+  LOGIN_SUCCESS,
+  LOADING,
+  LOGIN_FAIL,
+  REGISTER,
+  REGISTER_SUCCESS,
+  REGISTER_FAIL
+} from "./actions";
